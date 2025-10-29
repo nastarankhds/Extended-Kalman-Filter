@@ -14,7 +14,7 @@ it estimates the states such as sideslip angle amnd yaw rate from noisy measured
 Units: radians, m/s, N, kg, m, kg·m².
 
 The system's model is derived based on bicycle model.
-### System's Model
+### Model for system
 $$
 \dot{\beta} = \frac{fy_f*cos({\delta})-fy_r}{mV_x} - r
 $$

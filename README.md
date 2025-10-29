@@ -44,3 +44,6 @@ and
 $$
 \{\alpha}_f = -{\delta} +{\beta}  - frac{l_f* r}{V_x}
 $$
+$$
+\{\alpha}_r = {\beta}- frac{l_r* r}{V_x}
+$$

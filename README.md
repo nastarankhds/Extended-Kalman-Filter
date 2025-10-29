@@ -40,7 +40,7 @@ $$
 $$
 \{fy_r} = \{c_r*{\alpha}_r }
 $$
-
+and 
 $$
-\{\alpha}_f = 
+\{\alpha}_f = -{\delta} + }{\betha} - \frac{l_f* r}{V_x}
 $$

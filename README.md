@@ -35,5 +35,6 @@ for simplicuty, here the tire model is considered as linear model and just the m
 
 ##### Linear Tire Model: 
 $$
-\{fy_f} = \{c_{\alpha}*{\alpha} }
+\{fy_f} = \{c_f*{\alpha}_f }
+\{fy_r} = \{c_r*{\alpha}_r }
 $$

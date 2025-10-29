@@ -18,3 +18,6 @@ The system's model is derived based on bicycle model.
 $$
 \dot{\beta} = \frac{fy_f*cos({\delta})-fy_r}{mV_x} - r
 $$
+
+$$
+\dot{r} = \frac{}

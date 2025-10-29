@@ -20,5 +20,5 @@ $$
 $$
 
 $$
-\dot{r} = \frac{}
+\dot{r} = \frac{l_ffy_f*cos({\delta})-l_r fy_r}{i_z V_x}
 $$

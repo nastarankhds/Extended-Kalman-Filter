@@ -1,0 +1,38 @@
+# MATLAB / Simulink
+*.asv
+*.autosave
+*.mex*
+*.slxc
+slprj/
+parsim*
+*.mdl.r201*.*
+*.slx.r201*.*
+*.mat
+*.fig
+*.p
+
+# CarMaker / IPG (common temp/build)
+carmaker/*.res/
+carmaker/*.tmp/
+carmaker/work/
+ipg_control/tmp/
+ipg_control/build/
+
+# Logs / outputs
+*.log
+outputs/
+logs/
+figures/
+
+# Data (keep the repo small; leave one tiny sample)
+data/*
+!data/sample_run.csv
+
+# Notebooks / checkpoints
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

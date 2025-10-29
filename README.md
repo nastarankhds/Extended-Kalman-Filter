@@ -42,5 +42,5 @@ $$
 $$
 and 
 $$
-{\alpha}_f = -{\delta} +{\betha} } - frac{l_f* r}{V_x}
+\{\alpha}_f = -{\delta} +{\betha}  - frac{l_f* r}{V_x}
 $$

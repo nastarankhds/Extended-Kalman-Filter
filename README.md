@@ -13,4 +13,4 @@ it estimates the states such as sideslip angle amnd yaw rate from noisy measured
 - **Params:** $m, I_z, a, b, C_f, C_r, V_x$  
 Units: radians, m/s, N, kg, m, kg·m².
 
-The system model is drived based on bicycle model.
+The system's model is derived based on bicycle model.

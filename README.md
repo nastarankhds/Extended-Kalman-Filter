@@ -16,4 +16,5 @@ Units: radians, m/s, N, kg, m, kg·m².
 The system's model is derived based on bicycle model.
 ### System's Model
 $$
-\dot{\beta} = \frac{fy_f*cos({\delta})}{mV_x}- r
+\dot{\beta} = \frac{fy_f*cos({\delta})}{mV_x} - r
+$$

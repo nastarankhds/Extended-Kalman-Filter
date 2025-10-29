@@ -25,5 +25,5 @@ $$
 
 ### Measurement Model
 $$
-\a_y = 
+\{a_y} = 
 $$

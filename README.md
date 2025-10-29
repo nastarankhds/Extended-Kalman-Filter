@@ -14,7 +14,7 @@ it estimates the states such as sideslip angle amnd yaw rate from noisy measured
 Units: radians, m/s, N, kg, m, kg·m².
 
 The system's model is derived based on bicycle model.
-### Model of system
+### Model of system:
 $$
 \dot{\beta} = \frac{fy_f*cos({\delta})-fy_r}{mV_x} - r
 $$
@@ -23,7 +23,11 @@ $$
 \dot{r} = \frac{l_ffy_f*cos({\delta})-l_r fy_r}{i_z V_x}
 $$
 
-### Measurement Model
+### Measurement Model:
 $$
 \{a_y} = \frac{fy_f + fy_r}{m} + \{V_x r}
 $$
+
+
+Nonlinearity of the system could be caused of lateral forces model and considering non linear differential equation for the model.
+

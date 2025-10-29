@@ -25,5 +25,5 @@ $$
 
 ### Measurement Model
 $$
-\{a_y} = 
+\{a_y} = \frac{fy_f + fy_r}{m} + \{V_x r}
 $$

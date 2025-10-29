@@ -27,7 +27,9 @@ $$
 $$
 \{a_y} = \frac{fy_f + fy_r}{m} + \{V_x r}
 $$
-
+$$
+\dot{r} = \dot{r}
+$$
 
 Nonlinearity of the system could be caused of lateral forces model and considering non linear differential equation for the model.
 

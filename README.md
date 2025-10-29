@@ -31,4 +31,9 @@ $$
 
 Nonlinearity of the system could be caused of lateral forces model and considering non linear differential equation for the model.
 
-for simplicuty, here the tire model is considered as linear and just the model itself is considerd as nonlinear model.
+for simplicuty, here the tire model is considered as linear model and just the model itself is considerd as nonlinear model.
+
+##### Linear Tire Model: 
+$$
+\{fy_f} = \{c_{\alpha}*{\alpha} }
+$$

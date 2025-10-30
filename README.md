@@ -56,6 +56,13 @@ for EKF, prediction step uses Forward Euler to descritze the model and then a ja
 $$
 \dot{X} = \{f(x_1, x_2,.., \{\omega})}
 $$
+which could be written: 
+$$
+\dot{f_1} =  \{f(x_1, x_2,.., \{\omega}_1)}
+\dot{f_1} =  \{f(x_1, x_2,.., \{\omega}_2)}
+\{...}
+\dot{f_n} =  \{f(x_1, x_2,.., \{\omega}_n)}
+$$
 $$
 \{y} = \{h(x_1, x_2, ..., \{\nu})}
 $$

@@ -64,6 +64,7 @@ $$ \{.} $$
 $$ \{.} $$
 $$ \dot{f_n} =  \{f(x_1, x_2,.., \{\omega}_n)} $$
 
+and for the measurement:
 $$
 \{y} = \{h(x_1, x_2, ..., \{\nu})}
 $$

@@ -72,8 +72,10 @@ A: Jacobian Matrix
 #### Jacobian Matrix Calculation:
 $$
 \begin{bmatrix}
-  \frac{df_1}{dx_1} & b\\
-  c & d
+  \frac{df_1}{dx_1} & \frac{df_1}{dx_2} & ... & \frac{df_1}{dx_n} \\
+  \frac{df_2}{dx_1} & \frac{df_2}{dx_2} & ... & \frac{df_2}{dx_n} \\
+  \{.} & \{.} & \{.} & \{.} \\
+   \{.} & \{.} & \{.} & \{.} 
 \end{bmatrix}
 $$
 

@@ -66,3 +66,18 @@ $$
 $$
 \{P^{-}_\{k+1}} = \{A * P_\{k} * A^T + Q}
 $$
+
+A: Jacobian Matrix
+
+#### Jacobian Matrix Calculation:
+$$
+\begin{bmatrix}
+  \frac{df_1}{dx_1} & b\\
+  c & d
+\end{bmatrix}
+$$
+
+### Update Step:
+$$
+\{}
+$$

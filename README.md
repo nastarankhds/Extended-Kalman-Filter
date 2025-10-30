@@ -50,4 +50,9 @@ $$
 \{\alpha}_r = {\beta}- \frac{l_r* r}{V_x}
 $$
 
-for EKF, prediction step uses Forward Euler to descritze and then a jacobian matrix for predicting the covariance martrix.
+for EKF, prediction step uses Forward Euler to descritze the model and then a jacobian matrix for predicting the covariance martrix.
+
+### Mathematical Model:
+\dot{X} = \{f(x_1, x_2,.., \{omega})}
+### Prediction Step:
+

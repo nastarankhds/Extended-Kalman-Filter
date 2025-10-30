@@ -71,7 +71,7 @@ A: Jacobian Matrix
 
 #### Jacobian Matrix Calculation:
 $$
-\begin{bmatrix}
+\{A} = \begin{bmatrix}
   \frac{df_1}{dx_1} & \frac{df_1}{dx_2} & ... & \frac{df_1}{dx_n} \\
   \frac{df_2}{dx_1} & \frac{df_2}{dx_2} & ... & \frac{df_2}{dx_n} \\
   \{.} & \{.} & \{.} & \{.} \\

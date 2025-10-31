@@ -61,7 +61,12 @@ $$ \{\hat{x}_\{k+1}} = \{\hat{x}^{-}_\{k}} + \{K_\{k} (y - \{h(\{\hat{x}^{-}_\{k
 $$ \{P_{k}} = \{(\{I} - \{K_\{k}} \{\hat{H}_{k}}) \{P^{-}_\{k}}}  $$
 
 
-### Signals and parameters
+
+### A Maneuvre in CarMaker
+A mixed manuevre in car maker is defined. based on measured signals through IPG Control, this code is done.
+
+### EKF
+#### Signals and parameters
 - **States:** $x = [\beta,\ r]^\top$
 - **Input:** $u = \delta$
 - **Measurements:** $y = [a_y,\ r]^\top$

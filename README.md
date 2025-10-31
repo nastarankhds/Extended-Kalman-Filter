@@ -122,3 +122,6 @@ $$ \{A} =  \begin{bmatrix}
 $$
 \{P^{-}_\{k+1}} = \{A * P_\{k} * A^T + Q}
 $$
+
+
+and **update step**:

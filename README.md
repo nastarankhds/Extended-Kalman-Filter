@@ -139,7 +139,7 @@ $$
 + \mathbf{K}_{k+1} \left(
 \begin{bmatrix} a_y \\ r \end{bmatrix}_{k+1}
 - \mathbf{H}_{k+1} \hat{\mathbf{x}}_{k+1}^{-}
-\right).
+\right)
 $$
 
 

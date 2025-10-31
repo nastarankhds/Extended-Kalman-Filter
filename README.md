@@ -10,7 +10,7 @@ for EKF, prediction step uses Forward Euler to descritze the model and then a ja
 
 ### Mathematical Model:
 $$
-\dot{X} = \{f(x_1, x_2,.., \{\omega})}
+ = \{f(x_1, x_2,.., \{\omega})}
 $$
 which could be written: 
 $$ \dot{f_1} =  \{f(x_1, x_2,.., \{\omega}_1)} $$
@@ -34,7 +34,9 @@ $$
 $$
 
 A: Jacobian Matrix
+note : $$ \{f(x_\{k}, \{\omega})} $$ could be witten:
 
+$$ \{f(x_\{k}, \{\omega})} = \{x_\{k-1} + \{dt}\dot{X}} $$
 #### Jacobian Matrix Calculation:
 $$
 \{A} = \begin{bmatrix}

@@ -37,7 +37,7 @@ A: Jacobian Matrix
 
 note: 
 
-$$ \{f(x_\{k}, \{\omega})} = \{x_\{k-1} + \{dt}*{\dot{X_\{k-1}}} $$
+$$ \{f(x_\{k}, \{\omega})} = \{\{x_\{k-1}} + \{dt}*\{dot{X_\{k-1}}} $$
 
 #### Jacobian Matrix Calculation:
 $$

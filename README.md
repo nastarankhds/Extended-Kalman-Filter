@@ -133,9 +133,15 @@ $$ \{H} = \begin{bmatrix}
 
 $$ \{K_{k}} = \{P^{-}_\{k}}\{\{\hat{H}_k}}^\{T}{(\hat{H}_{k} \{P}^{-}_{k} \{\hat{H}_k}^\{T} + \{R})}^{-1} $$
 
-$$ \{\hat{x}_\{k+1}} = \{\hat{x}^{-}_\{k}} + \{K_\{k} ( \{\{\begin{bmatrix}
-\{a_y}\\ \{r} 
-\end{bmatrix}} - \{H}*\{\hat{x}_\{k}}} ) $$
+$$
+\hat{\mathbf{x}}_{k+1}
+= \hat{\mathbf{x}}_{k+1}^{-}
++ \mathbf{K}_{k+1} \left(
+\begin{bmatrix} a_y \\ r \end{bmatrix}_{k+1}
+- \mathbf{H}_{k+1} \hat{\mathbf{x}}_{k+1}^{-}
+\right).
+$$
+
 
 $$ \{P_{k}} = \{(\{I} - \{K_\{k}} \{\hat{H}_{k}}) \{P^{-}_\{k}}}  $$
 

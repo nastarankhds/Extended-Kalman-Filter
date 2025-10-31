@@ -112,4 +112,9 @@ based on this this prediction step would be:
 
 $$ \{\hat{\beta}^{-}_\{k+1}} = \{\hat{\beta}_\{k}} + \{dt}  * (\frac{\{fy_f}_\{k+1}*cos({\delta_\{k+1}})-\{fy_r}_\{k+1}}{m\{V_x}_\{k+1}} - r_\{k+1}) $$
 
-$$ \{\hat{r}^{-}_\{k+1}} = \{\hat{r}_\{k}} + \frac{l_f \{fy_f}_\{k+1}*cos({\delta_\{k+1}})-l_r \{fy_r}_{k+1}}{i_z \{V_x}_\{k+1}} $$
+$$ \{\hat{r}^{-}_\{k+1}} = \{\hat{r}_\{k}} + \{dt}  * (\frac{l_f \{fy_f}_\{k+1}*cos({\delta_\{k+1}})-l_r \{fy_r}_{k+1}}{i_z \{V_x}_\{k+1}}) $$
+
+$$ \{A} =  \begin{bmatrix}
+\{1} & \{-dt} \\
+0 & 1
+\end{bmatrix} $$

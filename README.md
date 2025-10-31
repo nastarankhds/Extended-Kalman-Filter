@@ -10,7 +10,7 @@ for EKF, prediction step uses Forward Euler to descritze the model and then a ja
 
 ### Mathematical Model:
 $$
-\dot{X_\{k+1}} = \{f(x_1, x_2,.., \{\omega})}
+\dot{X} = \{f(x_1, x_2,.., \{\omega})}
 $$
 which could be written: 
 $$ \dot{f_1} =  \{f(x_1, x_2,.., \{\omega}_1)} $$

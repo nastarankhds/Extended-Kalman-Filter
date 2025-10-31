@@ -41,6 +41,7 @@ x_init = [beta(1) yawrate(1)]';
 p_init =diag([0.001 0.001]);
 
 % Covariance of Noise Q, Covariance of Measurement R
+% you can start by a random valued for covariance, then tune it.
 [R,Q] = covQR(signal,noise_measurement);
 %%
 
@@ -56,9 +57,9 @@ for i=1:N
 
     [fzf,fzr] = vertical_load(par,ay(i),ax(i));
     vertical_forces(i, :) = [fzf fzr];
-
+    % for lateral forces , you can use a linear tire force as mentioned in README file.
     [fyf,fyr,alpha_f,alpha_r] = lateral_forces(x_init,par,delta(i),fzf,fzr,vx(i));
-%         [fyf,fyr,alpha_f,alpha_r] = lateral_forces_TM(x_init,par,delta(i),fzf,fzr,vx(i));
+
 
     lateral_load(i,:) = [fyf fyr];
     alpha(i,:) = [alpha_f alpha_r];
@@ -80,3 +81,4 @@ end
 
 %%
 PlotResult;
+

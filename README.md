@@ -110,4 +110,4 @@ in this system, the model is considered as nonlinear system and measurement as l
 
 based on this this prediction step would be:
 
-$$ \{\hat{beta}^{-}_\{k+1}} = \{\hat{beta}_\{k}} + \{dt}  * (\frac{\{fy_f}_\{k+1}*cos({\delta_\{k+1}})-\{fy_r}_\{k+1}}{m\{V_x}_\{k+1}} - r_\{k+1}) $$
+$$ \{\hat{\beta}^{-}_\{k+1}} = \{\hat{\beta}_\{k}} + \{dt}  * (\frac{\{fy_f}_\{k+1}*cos({\delta_\{k+1}})-\{fy_r}_\{k+1}}{m\{V_x}_\{k+1}} - r_\{k+1}) $$

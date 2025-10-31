@@ -34,9 +34,13 @@ $$
 $$
 
 A: Jacobian Matrix
-note : $$ \{f(x_\{k}, \{\omega})} $$ could be witten:
 
-$$ \{f(x_\{k}, \{\omega})} = \{x_\{k-1} + \{dt}\dot{X}} $$
+note: 
+$$ \{f(x_\{k}, \{\omega})} $$ 
+could be witten as:
+
+$$ \{f(x_\{k}, \{\omega})} = \{x_\{k-1} + \{dt}\dot{X_\{k-1}}} $$
+
 #### Jacobian Matrix Calculation:
 $$
 \{A} = \begin{bmatrix}
